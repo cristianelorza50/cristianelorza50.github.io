@@ -1,0 +1,179 @@
+/* 
+#336290 blue
+#8DB2D9 baby blue
+#03253F dark blue
+#4C82A9 blueee
+#4B82A9 light blue 
+#B4E3F4 white blue
+white
+*/
+
+
+
+
+#winter {
+	font-size: 5em;
+	color: white;
+	font-family: "Shree Devanagari 714", Helvetica, Georgia, Sans-serif;
+	text-align: center;
+	margin-top: 5%;
+	height: auto;
+	width: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#priority {
+	font-family: "Shree Devanagari 714", Helvetica, Georgia, Sans-serif;
+	text-align: center;
+	font-size: 1em;
+	color: white;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-bottom: 10%;
+
+}
+
+#content {
+	max-width: 460px;
+    margin: 0 auto;
+}
+
+#snowy { 
+	background: url(../images/aurora.jpg) no-repeat center center fixed; 
+  	background-size: cover;
+	padding-top: 200px;
+	padding-bottom: 50px;
+	width: 100%;
+	height: auto;
+}
+
+h2 {
+	text-decoration: underline;
+}
+
+#procedures {
+	text-align: center;
+	color: #4C82A9;
+	font-size: 1.5em;
+	font-family: "Shree Devanagari 714", Helvetica, Georgia, Sans-serif;
+	text-decoration: none;
+}
+
+#location {
+	border: 2px solid;
+	border-color: white;
+ 	max-width: 100%;
+	height: auto;
+}
+
+#tips {
+	background-color: black;
+	opacity: .5;
+	text-align: center;
+	font-family: "Shree Devanagari 714", Helvetica, Georgia, Sans-serif;
+	color: #B4E3F4;
+	border-radius: 15px;
+	padding: 2.5%;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+#about {
+	text-align: center;
+	color: #4C82A9;
+	font-size: 1.5em;
+	font-family: "Shree Devanagari 714", Helvetica, Georgia, Sans-serif;
+	text-decoration: none;
+}
+
+#dedication {
+	background-color: black;
+	opacity: .5;
+	text-align: center;
+	font-family: "Shree Devanagari 714", Helvetica, Georgia, Sans-serif;
+	color: #B4E3F4;
+	border-radius: 15px;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+#ourstaff {
+	text-align: center;
+	color: #4C82A9;
+	font-size: 1.5em;
+	font-family: "Shree Devanagari 714", Helvetica, Georgia, Sans-serif;
+	text-decoration: none;
+}
+
+#staff {
+	width: 100%;
+	height: auto;
+}
+
+#bottom {
+	background-color: #03253F;
+	color: #B4E3F4;
+	font-family: "Shree Devanagari 714", Helvetica, Georgia, Sans-serif;
+	float: center;
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+nav {
+	background-color: rgba(0,0,0,.65);
+	position: absolute;
+	top: 0px; left: 0px;
+	padding: 0px 0 0 0;
+	width: 100%;
+	font-family: "Shree Devanagari 714", Helvetica, Georgia, Sans-serif;
+}
+
+#navigation {
+    padding-top: 50px;
+    margin-left: 200px;
+    float: right;
+    display: block;
+    margin-right: 10%;
+}
+
+nav::after { content:''; display: inline; clear: both; }
+
+nav ul { list-style: none; margin: 0; padding: 0; }
+
+nav ul li:hover { background-color: #4B82A9; }
+
+nav ul li:hover > ul { display: inline; }
+
+nav ul li a {
+	display: inline-block;
+	color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	width: 125px;
+	position: relative;
+}
+
+nav ul li a:visited { color: #fff; }
+
+nav ul li a:hover { background-color: #4B82A9; }
+
+nav ul ul { position: absolute; top: 100%; background-color: #03253F; display: none; }
+
+nav ul ul li { position: relative; }
+
+nav ul ul ul { left: 100%; top: 0px; }
+
+/* top-level */
+
+nav > ul { padding-left: 200px; }
+
+nav > ul > li { float: left; }
+
+nav > ul > li > a { width: auto; padding: 10px 20px 15px 20px; }
+
+nav a[aria-haspopup="true"]
+
+
